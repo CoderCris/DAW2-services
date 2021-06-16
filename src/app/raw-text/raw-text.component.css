@@ -1,0 +1,10 @@
+#raw_box{
+  display: flex;
+  align-items: center;
+  margin: 30px; 
+}
+
+#text_input{
+  width: 300px;
+  height: 200px;
+}

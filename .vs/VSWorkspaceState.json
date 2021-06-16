@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\enc-text",
+    "\\src\\app\\raw-text",
+    "\\src\\assets",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\enc-text\\enc-text.component.ts",
+  "PreviewInSolutionExplorer": false
+}

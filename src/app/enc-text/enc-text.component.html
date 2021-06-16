@@ -1,0 +1,18 @@
+<div id="encryptor">
+  <label>FIRST insert a password:</label>
+  <input type="text" name="pass_input" [(ngModel)]="password" value="" required />
+  <div id="tools">
+    <div id="encript_box">
+      <h4>Encrypted text:</h4>
+      <p>Algorithm : AES</p>
+      <button (click)="encryptMessage()">Encrypt!</button>
+      <div id="enc_text"><p>{{this.message}}</p></div>
+    </div>
+    <div id="decrypt_box">
+      <h4>Decrypted text:</h4>
+      <p>Algorithm : AES</p>
+      <button (click)="decryptMessage()">Decrypt!</button>
+      <textarea id="text_input" [(ngModel)]="message"></textarea>
+    </div>
+  </div>
+</div>
